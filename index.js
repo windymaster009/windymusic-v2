@@ -3,7 +3,7 @@ const DisTube = require("distube");
 const client = new Discord.Client({disableMentions: "everone"});
 const config = {
     prefix: ".",
-    token: "ODA2NDQ1MTc2NDIzNTc5Njk4.YBpimQ.SgjR4GPKccgn7rz369GJu4Ig61o"
+    token: "ODA2NDQ1MTc2NDIzNTc5Njk4.YBpimQ.zBwoJFlI5xT6aYxzKfXOFlazzqc"
 }
 const distube = new DisTube(client, {searchSongs: true, emitNewSongOnly: true, highWaterMark: 1<<25})
 
